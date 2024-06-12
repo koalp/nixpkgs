@@ -15,6 +15,7 @@
 , gtk4
 , avahi
 , glib
+, glib-networking
 , networkmanager
 , json-glib
 , libadwaita
@@ -49,6 +50,7 @@ stdenv.mkDerivation (finalAttrs: {
     avahi
     gtk4
     glib
+    glib-networking
     gsettings-desktop-schemas
     gst_all_1.gstreamer
     gst_all_1.gst-plugins-base
